@@ -1,0 +1,44 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     eclipse-jdt-weka.filters.unsupervised.attribute.Remove-R1,12-14,18-21
+Instances:    761
+Attributes:   13
+              numberOfVersionsUntil:
+              numberOfFixesUntil:
+              numberOfRefactoringsUntil:
+              numberOfAuthorsUntil:
+              linesAddedUntil:
+              maxLinesAddedUntil:
+              avgLinesAddedUntil:
+              linesRemovedUntil:
+              maxLinesRemovedUntil:
+              avgLinesRemovedUntil:
+              ageWithRespectTo:
+              weightedAgeWithRespectTo:
+              bugs
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.79 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.1 seconds
+
+=== Summary ===
+
+Correlation coefficient                  0.9654
+Mean absolute error                      0.1463
+Root mean squared error                  0.2807
+Relative absolute error                 28.2571 %
+Root relative squared error             33.2977 %
+Total Number of Instances              761     
+
