@@ -1,1 +1,6 @@
 # JustinTimePrediction
+
+All’interno di questa tesi di Laurea verranno trattate le tecniche di predizione di commit difettosi nell’ambito dello sviluppo del software con modello Continuous Integration, a tal fine ci avvarremo del supporto di strumenti per il controllo di versione come GitHub. 
+In particolare, affronteremo attraverso l’uso della metodologia del ‘Just-in-Time Prediction’, il problema dell’estrazione delle metriche a partire da un log di commit e la conseguente creazione di un file .csv. A partire dalle metriche estratte, che rappresenteranno il cosiddetto training set, e con l’uso di particolari algoritmi di Machine Learning, verrà costruito un modello predittivo in grado di etichettare ogni commit come difettoso o meno. 
+Poi ci preoccuperemo di validare questo modello sottoponendogli un insieme di commit, detto testing set, di cui verificheremo le predizioni date dal modello al fine di valutare la sua precisione e correttezza nei risultati forniti.
+A questo proposito, tratteremo un caso di studio particolare, quello dall’app Immuni nelle due versioni per sistemi operativi mobile, ovvero Android e iOS, al fine di effettuare delle osservazioni sull’efficacia e la precisione di un certo modello predittivo piuttosto che un altro, nonché mettere in pratica il processo di predizione ‘Just-in-Time’.
