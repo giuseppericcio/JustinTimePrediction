@@ -1,4 +1,4 @@
-# JustinTimePrediction
+# Studio di tecniche di predizione 'Just-in-Time' di commit difettosi nello sviluppo software in contesti di Continuous Integration
 
 <p align='justify'> All’interno di questa tesi di Laurea verranno trattate le tecniche di predizione di commit difettosi nell’ambito dello sviluppo del software con modello Continuous Integration.
 Innanzitutto, occorre definire cosa si intende con il termine ‘commit’, esso indica quell’operazione di aggiunta, modifica e/o rimozione di file all’interno di una cartella di lavoro, che può essere locale o distribuita; nel caso di directory distribuite ci si avvale del supporto di strumenti per il controllo di versione come GitHub. 
